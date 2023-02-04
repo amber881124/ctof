@@ -3,6 +3,6 @@
 # 印出華氏
 
 c = input('請輸入攝氏溫度： ')
-c = int(c)
+c = float(c)
 f = 9 / 5 * c + 32
-print(f) 
+print(f'華氏溫度為： {f}度') 
